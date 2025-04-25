@@ -6,7 +6,7 @@ Here’s a professional and clean `README.md` for your coding challenge project 
 ```md
 # 🧩 Auth Demo - Coding Challenge
 
-A simple authentication-focused React + TypeScript app built with **Vite** (or **Next.js - client only**), showcasing:
+A simple authentication-focused React + TypeScript app built with  Vite  (or  Next.js - client only ), showcasing:
 
 - 🔐 Authentication (Sign-Up)
 - 🌍 Global state management with Zustand
@@ -19,13 +19,13 @@ A simple authentication-focused React + TypeScript app built with **Vite** (or *
 
 ## 📦 Tech Stack
 
-- **React** (with Vite or Next.js - app router client-side only)
-- **TypeScript**
-- **Zustand** – global state (logged-in user)
-- **TanStack Query** – async data fetching
-- **Zod** – schema validation
-- **Tailwind CSS** – styling
-- **Mock API** – simulates sign-up/login actions
+- React (with Vite or Next.js - app router client-side only)
+-  TypeScript
+-  Zustand  – global state (logged-in user)
+-  TanStack Query  – async data fetching
+-  Zod  – schema validation
+-  Tailwind CSS  – styling
+-  Mock API  – simulates sign-up/login actions
 
 ---
 
@@ -130,4 +130,4 @@ Feel free to open issues or reach out if you'd like feedback!
 
 ```
 
-Let me know if you'd like this tailored for **Next.js App Router** or deployed to something like **Vercel** or **Netlify**.
+Let me know if you'd like this tailored for  Next.js App Router  or deployed to something like  Vercel  or  Netlify .
