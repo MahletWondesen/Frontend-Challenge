@@ -1,54 +1,133 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Here’s a professional and clean `README.md` for your coding challenge project built with Vite, React (or Next.js), TypeScript, Zustand, and TanStack Query:
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```md
+# 🧩 Auth Demo - Coding Challenge
 
-## Expanding the ESLint configuration
+A simple authentication-focused React + TypeScript app built with **Vite** (or **Next.js - client only**), showcasing:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 🔐 Authentication (Sign-Up)
+- 🌍 Global state management with Zustand
+- 🔁 Data fetching with TanStack Query
+- ✅ End-to-end type safety using Zod
+- 🎨 Clean, responsive UI with Tailwind CSS
+- 🚀 Error handling and loading states
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+---
+
+## 📦 Tech Stack
+
+- **React** (with Vite or Next.js - app router client-side only)
+- **TypeScript**
+- **Zustand** – global state (logged-in user)
+- **TanStack Query** – async data fetching
+- **Zod** – schema validation
+- **Tailwind CSS** – styling
+- **Mock API** – simulates sign-up/login actions
+
+---
+
+## ✨ Features
+
+- ✅ Sign-up form with validation
+- 🔐 Tracks logged-in users globally
+- 📡 Fetches protected data after auth
+- ⚠️ Graceful error handling
+- 💅 Responsive, accessible UI
+
+---
+
+## 🚀 Getting Started
+
+> Make sure you have `pnpm` installed. If not:
+```bash
+npm install -g pnpm
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 1. Clone the repo
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```bash
+git clone https://github.com/your-username/auth-demo.git
+cd auth-demo
 ```
+
+### 2. Install dependencies
+
+```bash
+pnpm install
+```
+
+### 3. Run the app
+
+```bash
+pnpm dev
+```
+
+The app will be running at [http://localhost:5173](http://localhost:5173)
+
+---
+
+## 🖼️ Screenshots
+
+> (Add your image here or include a GIF showing the sign-up flow)
+
+---
+
+## 📹 Demo Video
+
+> (Link to your Loom or screen recording here)
+
+---
+
+## 📁 Folder Structure
+
+```
+.
+├── src
+│   ├── api          # Mock auth API
+│   ├── components   # Signup form, protected content, etc.
+│   ├── store        # Zustand store
+│   ├── App.tsx
+│   └── main.tsx
+├── index.html
+├── tailwind.config.js
+└── vite.config.ts
+```
+
+---
+
+## 🧪 Test User (for mock API)
+
+You can sign in with any email and password provided on the sign-in page. The mock API will "log in" with the credentials provided on the sign-in page.
+
+---
+
+## 🛠️ Customization
+
+Feel free to add:
+
+- ✅ Login flow
+- 👤 Profile page
+- 🔄 Logout functionality
+- 🔐 Route protection
+- 🧪 Unit tests with Vitest or Jest
+
+---
+
+## 📖 License
+
+MIT — free to use and modify.
+
+---
+
+## 💬 Questions?
+
+Feel free to open issues or reach out if you'd like feedback!
+
+---
+
+```
+
+Let me know if you'd like this tailored for **Next.js App Router** or deployed to something like **Vercel** or **Netlify**.
