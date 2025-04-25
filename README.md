@@ -49,8 +49,8 @@ npm install -g pnpm
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/auth-demo.git
-cd auth-demo
+git clone https://github.com/MahletWondesen/Frontend-Challenge.git
+cd Frontend-Challenge
 ```
 
 ### 2. Install dependencies
@@ -71,36 +71,16 @@ The app will be running at [http://localhost:5173](http://localhost:5173)
 
 ## 🖼️ Screenshots
 
-> (Add your image here or include a GIF showing the sign-up flow)
+> ![image](https://github.com/user-attachments/assets/ba2a8f6f-40bf-45c6-8b75-07c6632794fc)
 
----
 
-## 📹 Demo Video
+![image](https://github.com/user-attachments/assets/ca8bf690-38b5-404a-ab78-55e7a86eaac4)
 
-> (Link to your Loom or screen recording here)
 
----
 
-## 📁 Folder Structure
+🧪 Test User (for mock API)
 
-```
-.
-├── src
-│   ├── api          # Mock auth API
-│   ├── components   # Signup form, protected content, etc.
-│   ├── store        # Zustand store
-│   ├── App.tsx
-│   └── main.tsx
-├── index.html
-├── tailwind.config.js
-└── vite.config.ts
-```
-
----
-
-## 🧪 Test User (for mock API)
-
-You can sign in with any email and password provided on the sign-in page. The mock API will "log in" with the credentials provided on the sign-in page.
+You can sign in with email: userone@user.com and password: 123456 provided on the sign-in page. The mock API will "log in" with the credentials provided on the sign-in page.
 
 ---
 
