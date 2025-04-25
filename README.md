@@ -3,7 +3,7 @@
 ```md
 # 🧩 Auth Demo - Coding Challenge
 
-A simple authentication-focused React + TypeScript app built with  Vite  (or  Next.js - client only ), showcasing:
+A simple  React + TypeScript app built with  Vite  (or  Next.js - client only ), showcasing:
 
 - 🔐 Authentication (Sign-Up)
 - 🌍 Global state management with Zustand
