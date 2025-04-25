@@ -1,7 +1,4 @@
 
-Here’s a professional and clean `README.md` for your coding challenge project built with Vite, React (or Next.js), TypeScript, Zustand, and TanStack Query:
-
----
 
 ```md
 # 🧩 Auth Demo - Coding Challenge
