@@ -110,4 +110,5 @@ Feel free to open issues or reach out if you'd like feedback!
 
 ```
 
-Let me know if you'd like this tailored for  Next.js App Router  or deployed to something like  Vercel  or  Netlify .
+https://frontend-challenge-five-kohl.vercel.app/
+```
